@@ -11,3 +11,7 @@ Fizzbuzz.prototype.isDivisibleByFive = function(num) {
   return false;
 };
 
+Fizzbuzz.prototype.isDivisibleByFifthteen = function(num) {
+  return true;
+};
+

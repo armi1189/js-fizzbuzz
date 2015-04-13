@@ -26,8 +26,12 @@ describe ("Fizzbuzz", function() {
     expect(fizzbuzz.isDivisibleByFive(7)).toBe(false)
   });
 
-  it("should know if number is  divisible by both 5 and 3", function() {
+  it("should know if number is divisible by both 5 and 3", function() {
     expect(fizzbuzz.isDivisibleByFifthteen(15)).toBe(true)
+  });
+
+  it("should know if number is not divisible by both 5 and 3", function() {
+    expect(fizzbuzz.isDivisibleByFifthteen(19)).toBe(false)
   });
 });
 
