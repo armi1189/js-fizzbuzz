@@ -49,5 +49,9 @@ describe ("Fizzbuzz", function() {
   it ("should return FizzBuzz when a number is divisible both both 5 and 3", function() {
     expect(fizzbuzz.says(15)).toEqual("FizzBuzz")
   });
+
+  it ("should return the number when a number is not divisible for 15, 5, or 3", function() {
+    expect(fizzbuzz.says(7)).toEqual(7)
+  });
 });
 
