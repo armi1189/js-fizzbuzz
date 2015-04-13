@@ -33,5 +33,9 @@ describe ("Fizzbuzz", function() {
   it("should know if number is not divisible by both 5 and 3", function() {
     expect(fizzbuzz.isDivisibleByFifthteen(19)).toBe(false)
   });
+
+  it ("should know if any number is divisible by by both 5 and 3", function() {
+    expect(fizzbuzz.isDivisibleByFifthteen(30)).toBe(true)
+  });
 });
 
