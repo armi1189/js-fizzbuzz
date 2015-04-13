@@ -38,8 +38,12 @@ describe ("Fizzbuzz", function() {
     expect(fizzbuzz.isDivisibleByFifthteen(30)).toBe(true)
   });
 
-   it ("should return fizz when a number is divisible by 3", function() {
+  it ("should return Fizz when a number is divisible by 3", function() {
     expect(fizzbuzz.says(3)).toEqual("Fizz")
-   });
+  });
+
+  it ("should return Buzz when a number is divisible by 5", function() {
+    expect(fizzbuzz.says(5)).toEqual("Buzz")
+  });
 });
 
